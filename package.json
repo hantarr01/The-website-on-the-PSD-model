@@ -17,6 +17,7 @@
   "homepage": "https://github.com/hantarr01/The-website-on-the-PSD-model#readme",
   "description": "",
   "dependencies": {
-    "bootstrap": "^3.4.0"
+    "bootstrap": "^3.4.0",
+    "materialize-css": "^1.0.0-rc.2"
   }
 }
