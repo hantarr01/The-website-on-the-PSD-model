@@ -11,15 +11,10 @@ body{
 header{
   height: 110px;
   width: 100%;
-	background-color: #212121;
+	background-color:#212121 ;
   font-family: 'Nunito Sans', sans-serif;
   color: #ff3448;
  
-}
-
-#menu{
- background-color: #545454;
-
 }
 
 #back-menu{
@@ -32,28 +27,23 @@ header{
 }
 
 #up-header{
-
+  height: 30px;
+  border-bottom: 0.1vh solid #545454;
 }
 
 #human{
   font-size: 12px;
-  background-image: url("../image/human.png");
-  background-repeat: no-repeat;
-  background-size: 12px 12px;
 }
 
 #cart{
   font-size: 12px;
-  background-image: url("../image/cart.png");
-  background-repeat: no-repeat;
-  background-size: 15px 15px;
 }
 
 #checkout{
   font-size: 12px;
-  background-image: url("../image/checkout.png");
-  background-repeat: no-repeat;
-  background-size: 15px 15px;
 }
 
+#search{
+ 
+}
 
