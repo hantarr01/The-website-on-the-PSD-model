@@ -42,7 +42,11 @@ height: 2vh;
 
 #red{
   color: #ff3448;
+}
 
+.whitehov:hover{
+   color: white;
+   display: block; 
 }
 
 #cart-icon{
@@ -82,9 +86,17 @@ background-color: black;
 
 
 #buttonshref{ 
-  margin-top: -5%;
-  text-align: center;
+  text-align: left;
   color: white;
+}
+
+#buttonshref:hover{ 
+color:#ff3448;
+display: block; 
+}
+
+#mainbanner{
+  margin-top: -2%;
 }
 
 #image1{
