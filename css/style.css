@@ -1,49 +1,96 @@
 body{
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+height: 100%;
+width: 100%;
+margin: 0;
+padding: 0;
+overflow-x: hidden;
 }
 
-
-
 header{
-  height: 110px;
-  width: 100%;
-	background-color:#212121 ;
-  font-family: 'Nunito Sans', sans-serif;
-  color: #ff3448;
- 
+height: 15vh;
+width: 100%;
+background-color:#212121 ;
+font-family: 'Nunito Sans', sans-serif;
+color: #ff3448;
+
 }
 
 #back-menu{
-  color: black;
+color: black;
 }
 
 #start-menu{
-  font-size: 20px;
-  color: #ff3448;
+font-size: 20px;
+color: #ff3448;
 }
 
 #up-header{
-  height: 30px;
-  border-bottom: 0.1vh solid #545454;
+height: 4vh;
+border-bottom: 0.2vh solid #545454;
+}
+
+#human-all{
+height: 2vh;
+width: 8vh;
+}
+
+#human-icon{
+margin-right: 20%;
+margin-top: 5%;
 }
 
 #human{
-  font-size: 12px;
+margin-left: 30%;
+margin-top: -40%;
+font-size: 1.7vh;
+width: 10vh;
+height: 3vh;
+}
+
+#cart-all{
+height: 2vh;
+}
+
+#cart-icon{
+margin-top: 15%;
+margin-right: 10%;
+height: 2vh;
 }
 
 #cart{
-  font-size: 12px;
+margin-left: 40%;
+/*margin-top: -5%;*/
+font-size: 1.7vh;
+height: 2vh;
 }
 
 #checkout{
-  font-size: 12px;
+margin-left: 20%;
+font-size: 1.7vh;
 }
 
 #search{
- 
+
 }
+
+#down-header{
+height: 11vh;
+}
+
+#buttons{
+height: 6vh;
+background-color: black;
+}
+
+#imageblock{
+
+}
+
+
+
+#image1{
+background-color: #303030;
+}
+
+
 
