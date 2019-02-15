@@ -1,6 +1,4 @@
 body{
-height: 100%;
-width: 100%;
 margin: 0;
 padding: 0;
 overflow-x: hidden;
@@ -8,8 +6,6 @@ background-color: black;
 }
 
 header{
-height: 20vh;
-width: 100%;
 background-color:#212121 ;
 font-family: 'Nunito Sans', sans-serif;
 }
@@ -20,24 +16,55 @@ border-bottom: 0.2vh solid #545454;
 
 #human-ico{
   margin-top: 10%;
+  margin-left:38%;
 }
 
 #human{
   font-size: 80%;
-  margin-left:20%;
-  margin-top: -23%;
+  margin-left:50%;
+  margin-top: -15%;
+  margin-bottom: -30%;
+}
+
+#cart-all{
+  height: 40%;
+
+}
+
+#cart-icon{ 
+   margin-top:27%;
+   margin-left:5%;
+}
+
+#cart{
+  font-size: 80%;
+  margin-left:48%;
+  margin-top: -33%;
+}
+
+#checkout-icon{
+   margin-top:10%;
+    margin-left:27%;
+}
+
+#checkout{
+   font-size: 80%;
+  margin-left:40%;
+  margin-top: -15%;
 }
 
 
+#search-border{
+margin-top: 20%;
+margin-left: 10%; 
+height: 70%;
+border-left: 0.2vh solid #545454;
+}
 
-
-
-
-
-
-
-
-
+#search{
+  margin-top:10%;
+  margin-left:20%;
+}
 
 
 #red{
@@ -46,8 +73,8 @@ border-bottom: 0.2vh solid #545454;
 
 
 #down-header{
-height: 11vh;
 }
+
 
 #buttons{
 font-family: 'Oxygen', sans-serif;
@@ -70,8 +97,18 @@ display: block;
   padding-left: 5%;
 }
 
+#logo{
+  margin-top: 2%;
+}
+
+#contacts{
+
+}
+
+
 #mainbanner{
   margin-top: -2%;
+  width: 100%;
 }
 
 #image1{
