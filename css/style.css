@@ -11,74 +11,13 @@ font-family: 'Nunito Sans', sans-serif;
 }
 
 #header{
-background-color:#212121 ;  
+background-color:#212121;  
 }
-
-
-#up-header{
-border-bottom: 0.2vh solid #545454;
-}
-
-#human-ico{
-  margin-top: 10%;
-  margin-left:38%;
-}
-
-#human{
-  font-size: 80%;
-  margin-left:50%;
-  margin-top: -15%;
-  margin-bottom: -30%;
-}
-
-#cart-all{
-  height: 40%;
-
-}
-
-#cart-icon{ 
-   margin-top:27%;
-   margin-left:5%;
-}
-
-#cart{
-  font-size: 80%;
-  margin-left:48%;
-  margin-top: -33%;
-}
-
-#checkout-icon{
-   margin-top:10%;
-    margin-left:27%;
-}
-
-#checkout{
-   font-size: 80%;
-  margin-left:40%;
-  margin-top: -15%;
-}
-
-
-#search-border{
-margin-top: 20%;
-margin-left: 10%; 
-height: 70%;
-border-left: 0.2vh solid #545454;
-}
-
-#search{
-  margin-top:10%;
-  margin-left:20%;
-}
-
 
 #red{
   color: #ff3448;
 }
 
-
-#down-header{
-}
 
 
 #buttons{
@@ -110,27 +49,19 @@ color:#ff3448;
 display: block; 
 }
 
-.padding{
-  padding-left: 5%;
-}
-
-#logo{
-  margin-top: 2%;
-}
-
-#contacts{
-
-}
-
 
 #mainbanner{
   margin-top: -2%;
   width: 100%;
 }
 
-#image1{
-background-color: #303030;
+.search{
+  background-color:#4a4a4a;
 }
 
+#mobile-demo{
+  background-color:#303030;
+  color: #ff3448;
+}
 
 
