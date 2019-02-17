@@ -10,6 +10,11 @@ background-color:#212121 ;
 font-family: 'Nunito Sans', sans-serif;
 }
 
+#header{
+background-color:#212121 ;  
+}
+
+
 #up-header{
 border-bottom: 0.2vh solid #545454;
 }
@@ -83,7 +88,19 @@ background-color: black;
 }
 
 
-#buttonshref{ 
+#buttonshrefsmall{
+  width:50px;
+  text-align: left;
+  color: white;
+}
+
+#buttonshrefsmall:hover{ 
+color:#ff3448;
+display: block; 
+}
+
+#buttonshref{
+  width:70px;
   text-align: left;
   color: white;
 }

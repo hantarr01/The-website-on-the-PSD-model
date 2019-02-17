@@ -4,6 +4,7 @@
  	<meta charset="UTF-8">
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+ 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  	<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
  	<link href="css/style.css" rel="stylesheet" type="text/css">
  	<link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
@@ -14,13 +15,134 @@
 
  <body>
 
+
 <header>
-		<!--open row  -->
+ <nav class="nav-extended" id="header">
+    <div class="nav-wrapper">
+    <a href="#mobile-demo" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li id="red">
+        <img src="image/human.png">
+         My Account
+        </li>
+
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+      </ul>
+
+      <div>
+      <img src="image/logo.png" class="brand-logo"></img>
+
+      </div>
+
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a href="#">WISHLIST</a></li>
+        <li class="tab"><a href="#">COMPARE</a></li>
+        <li class="tab"><a href="#">MY CART</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+
+    <li> 
+    	<img src="image/human.png">
+         My Account
+     </li>
+
+    <li>
+    	<img src="image/cart.png">
+    	 Cart
+    </li>
+
+    <li>
+    	<img src="image/checkout.png">
+    	 Checkout
+    </li>
+  </ul>
+
+
+
+</header> 
+
+  		<div class="row" id="buttons">
+
+  					<div class="col s0 col m0 col l2"></div>
+
+  					<div class="col s3 col m2 col l1" >
+  						<a href="https://materializecss.com/media-css.html">
+ 							<div id="buttonshrefsmall"><p>HOME</p></div>
+ 						</a>	
+ 					</div>
+ 					
+
+ 					<div class="col s4 col m2 col l1">
+ 						<a href="https://materializecss.com/media-css.html">
+ 							<div id="buttonshref"><p>SERVICES</p></div>
+ 						</a>	
+ 					</div>
+ 					
+
+ 					<div class="col s4 col m2 col l1">
+ 						<a href="https://materializecss.com/media-css.html">
+ 							<div id="buttonshrefsmall"><p>ABOUT</p></div>
+ 						</a>					
+ 					</div>
+ 					
+
+ 					<div class="col s3 col m2 col l1">
+ 						<a href="https://materializecss.com/media-css.html">
+ 							<div id="buttonshref"><p>REVIEWS</p></div>
+ 						</a>
+ 					</div>
+ 					
+
+ 					<div class="col s4 col m2 col l1">
+ 						<a href="https://materializecss.com/media-css.html">
+ 							<div id="buttonshref"><p>LOCATIONS</p></div>
+ 						</a>
+ 					</div>
+
+ 					<div class="col s4 col m1 col l1">
+ 						<a href="https://materializecss.com/media-css.html">
+ 							<div id="buttonshref"><p>CONTACTS</p></div>
+ 						</a>
+ 					</div>
+ 					
+ 		</div>	
+
+<div class="col s12 col m12 col l12">
+ 			<div id="mainbanner">
+ 				<img src="image/coolimage.png" class="responsive-img" width="100%">
+ 			</div>
+ 		</div>       
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<!-- 
+	
  		<div class="row">
  			<div class="col s1 col m2 col l2"></div>
  			<div class="col s10 col m9 col l9" id="up-header">
 
-			<!--open row  -->
+
 			<div class="row">
 
 
@@ -33,7 +155,7 @@
 
 
  						<div id="human-ico">
- 							<img src="image/human.png">
+ 							
  						</div>
 
 						<div id="human">
@@ -98,14 +220,14 @@
 
 
  			</div>	
-		<!--close row  -->
+	
 
 
  			</div>
- 	<!-- close up-header -->
+ 
 
 
-		<!--open row  -->
+
  		<div class="row">
 
  			<div class="col s1 col m2 col l2" id="padding-adaptation"></div>
@@ -113,7 +235,7 @@
  			<div class="col s10 col m9 col l9" id="down-header">
 
 
-						<!--open row  -->
+				
  						<div class="row">
 
  							<div class="col s6 col m2 col l3">
@@ -149,18 +271,18 @@
 
 		
 						</div>	
-					<!--close row  -->
+			
  									
 
  		</div>
- 	<!--close row  -->	
+ 
 
 
 
  		</div>
- 	<!--close row  -->
+ 
 
-</header>
+
 
 
 
@@ -225,7 +347,7 @@
  		</div>
 
 
-
+ -->
 
 
 
@@ -235,8 +357,6 @@
 
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js "></script>
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js" integrity="sha384-THPy051/pYDQGanwU6poAc/hOdQxjnOEXzbT+OuUAFqNqFjL+4IGLBgCJC3ZOShY" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.2.0/js/tether.min.js" integrity="sha384-Plbmg8JY28KFelvJVai01l8WyZzrYWG825m+cZ0eDDS1f7d/js6ikvy1+X+guPIB" crossorigin="anonymous"></script>
 <script type="text/javascript" src="script.js"></script>
 <script type="text/javascript" src="materialize.min.js"></script>
