@@ -18,6 +18,40 @@ background-color:#212121;
   color: #ff3448;
 }
 
+.human{
+  position: absolute;
+  left: 57%;
+}
+
+.cart{
+  position: absolute;
+  left: 65%;
+}
+
+.checkout{
+   position: absolute;
+  left: 70%;
+}
+
+.searchtop{
+  height: 20px;
+  position: absolute;
+  right: 22%;
+  top: 7px;
+}
+
+.border{
+  position: absolute;
+  top:17px;
+  border-left: 2px solid #545454;
+  height: 20px;
+  width: 3px;
+}
+
+
+#font{
+  font-size: 13px;
+}
 
 
 #buttons{
