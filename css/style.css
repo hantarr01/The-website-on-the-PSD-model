@@ -2,11 +2,11 @@ body{
 margin: 0;
 padding: 0;
 overflow-x: hidden;
-background-color: black;
+background-color:#303030;
 }
 
 header{
-background-color:#212121 ;
+background-color:#212121;
 font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -18,39 +18,126 @@ background-color:#212121;
   color: #ff3448;
 }
 
+
+#logo{
+  position: absolute;
+  top: 100%;
+  left: 18.5%; 
+}
+
+
+#logomedia{
+  width:0px;
+  height:0px;  
+  background-image: url("../image/Logo.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+
 .human{
   position: absolute;
-  left: 57%;
+  left: 63%;
 }
 
 .cart{
   position: absolute;
-  left: 65%;
+  left: 70%;
 }
 
 .checkout{
    position: absolute;
-  left: 70%;
+  left: 75%;
+}
+
+.nav-content{
+  height: 6vh;
 }
 
 .searchtop{
   height: 20px;
   position: absolute;
-  right: 22%;
-  top: 7px;
+  right: 18%;
+  top: 6px;
 }
 
 .border{
+  height: 22px;
   position: absolute;
-  top:17px;
+  right: 20%;
+  top: 20px;
   border-left: 2px solid #545454;
-  height: 20px;
-  width: 3px;
 }
 
+.bord-bott{
+  border-bottom: 2px solid #545454;
+  height: 50px;
+  width: 65vw;
+  margin-right:17vw;
+}
 
 #font{
   font-size: 13px;
+}
+
+.border-tabs1{
+  height: 50px;
+  border-left: 2px solid #545454;
+  position: absolute;
+  right: 32vw;
+  top: 68px;
+}
+
+
+.tab1{ 
+  position: absolute;
+  right: 26.7vw;
+  top: 78px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+.border-tabs2{
+  height: 50px;
+  border-left: 2px solid #545454;
+  position: absolute;
+  right: 26.5vw;
+  top: 68px;
+}
+
+
+.tab2{
+  position: absolute;
+  right: 21.2vw;
+  top: 78px;
+ font-family: 'Oxygen', sans-serif;
+}
+
+
+.border-tabs3{
+  height: 50px;
+  border-left: 2px solid #545454;
+  position: absolute;
+  right: 21vw;
+  top: 68px;
+}
+
+
+.tab3{
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  right: 16vw;
+  top: 78px;
+ font-family: 'Oxygen', sans-serif;
+}
+
+
+.intab3{
+  position: absolute;
+  top: -21px;
+  left: 32px; 
 }
 
 
@@ -98,4 +185,12 @@ display: block;
   color: #ff3448;
 }
 
+#picture-left{
+  margin-top: -5px;
+  text-align: left; 
+}
 
+#picture-right{
+  margin-top: -5px;
+  text-align: right;  
+}
