@@ -51,8 +51,57 @@ background-color:#212121;
 }
 
 .nav-content{
-  height: 6vh;
+  height: 100px;
 }
+
+
+@media screen and (width: 1920px) {
+.nav-content{
+  height: 110px;
+}
+ }
+
+@media screen and (width: 900px) {
+.nav-content{
+  height: 0px;
+}
+ }
+
+@media screen and (width: 700px) {
+.nav-content{
+  height: 0px;
+}
+ }
+
+ @media screen and (width: 800px) {
+.nav-content{
+  height: 0px;
+}
+ }
+
+@media screen and (width: 768px) {
+.nav-content{
+  height: 0px;
+}
+ }
+
+@media screen and (width: 375px) {
+.nav-content{
+  height: 0px;
+}
+ }
+
+@media screen and (width: 414px) {
+.nav-content{
+  height: 0px;
+}
+ }
+
+@media screen and (width: 360px) {
+.nav-content{
+  height: 0px;
+}
+ }
 
 .searchtop{
   height: 20px;
@@ -60,6 +109,88 @@ background-color:#212121;
   right: 18%;
   top: 6px;
 }
+
+@media screen and (width: 1366px) {
+ .searchtop{
+  right: 18%;
+} 
+.human{
+  position: absolute;
+  left: 60%;
+}
+
+.cart{
+  position: absolute;
+  left: 67%;
+}
+
+.checkout{
+   position: absolute;
+  left: 72%;
+}
+}
+
+@media screen and (width: 1200px) {
+ .searchtop{
+  right: 17.5%;
+} 
+.human{
+  position: absolute;
+  left: 57%;
+}
+
+.cart{
+  position: absolute;
+  left: 66%;
+}
+
+.checkout{
+   position: absolute;
+  left: 72%;
+}
+}
+
+@media screen and (width: 1100px) {
+ .searchtop{
+  right: 17%;
+} 
+.human{
+  position: absolute;
+  left: 57%;
+}
+
+.cart{
+  position: absolute;
+  left: 66%;
+}
+
+.checkout{
+   position: absolute;
+  left: 72%;
+}
+}
+
+@media screen and (width: 1000px) {
+ .searchtop{
+  right: 17%;
+} 
+.human{
+  position: absolute;
+  left: 57%;
+}
+
+.cart{
+  position: absolute;
+  left: 66%;
+}
+
+.checkout{
+   position: absolute;
+  left: 72%;
+}
+}
+
+
 
 .border{
   height: 22px;
@@ -80,64 +211,68 @@ background-color:#212121;
   font-size: 13px;
 }
 
-.border-tabs1{
-  height: 50px;
-  border-left: 2px solid #545454;
+
+
+.alltab{
   position: absolute;
-  right: 32vw;
-  top: 68px;
+  right:14%; 
+  width: 350px;
+  height: 62px;
 }
 
+.intab1{
+  margin-top:15px; 
+  text-align: center;
+  width: 100px;
+  height: 60px;
+  border-left: 2px solid #545454;
+}
+
+.tabs1{
+ margin-top: -8px;
+}
 
 .tab1{ 
-  position: absolute;
-  right: 26.7vw;
-  top: 78px;
+   margin-top: -37px;
   font-family: 'Oxygen', sans-serif;
 }
 
 
-.border-tabs2{
-  height: 50px;
+.intab2{
+  margin-top:-60px;
+  margin-left: 100px;
+  text-align: center;
+  width: 100px;
+  height: 60px;
   border-left: 2px solid #545454;
-  position: absolute;
-  right: 26.5vw;
-  top: 68px;
 }
 
+.tabs2{
+  margin-top: -8px;
+}
 
 .tab2{
-  position: absolute;
-  right: 21.2vw;
-  top: 78px;
+  margin-top: -37px;
  font-family: 'Oxygen', sans-serif;
 }
 
-
-.border-tabs3{
-  height: 50px;
+.intab3{
+  margin-top: -60px;
+  margin-left:200px;
+  text-align: center;
+  width: 100px;
+  height: 60px;
   border-left: 2px solid #545454;
-  position: absolute;
-  right: 21vw;
-  top: 68px;
+}
+
+.tabs3{
+  margin-top: -8px;
 }
 
 
 .tab3{
-  text-align: center;
-  width: 100px;
-  height: 50px;
-  position: absolute;
-  right: 16vw;
-  top: 78px;
- font-family: 'Oxygen', sans-serif;
-}
-
-
-.intab3{
-  position: absolute;
-  top: -21px;
-  left: 32px; 
+  margin-top: -37px;
+  font-family: 'Oxygen', sans-serif;
 }
 
 
@@ -172,17 +307,72 @@ display: block;
 
 
 #mainbanner{
-  margin-top: -2%;
+  margin-top: -100px;
   width: 100%;
 }
 
-.search{
-  background-color:#4a4a4a;
+ INPUT[type="search"] {
+    background-color:#4a4a4a;
+    color:white;
 }
+
+.logoMobile{
+ margin-top:10px;
+ text-align: center; 
+}
+
+.up-menuMobile{
+  text-align: left;
+  width: 100%;
+  height: 150px;
+  border: 1px solid red;
+}
+
 
 #mobile-demo{
   background-color:#303030;
   color: #ff3448;
+}
+
+.alltabMobile{
+}
+
+.intabm{
+  margin-top:15px; 
+  text-align: center;
+  width: 100px;
+  height: 60px;
+}
+
+.intabm2{
+  margin-top:-60px;
+  margin-left: 100px;
+  text-align: center;
+  border-left: 2px solid #545454;
+  width: 100px;
+  height: 60px;
+}
+
+.intabm3{
+  margin-top: -60px;
+  margin-left:200px;
+  text-align: center;
+  border-left: 2px solid #545454;
+  width: 100px;
+  height: 60px;
+}
+
+.tabm{
+  margin-top: -20px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.rdA a{
+  color: #ff3448;
+}
+
+.whtA a{
+  color: white;
 }
 
 #picture-left{
