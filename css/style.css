@@ -21,7 +21,7 @@ background-color:#212121;
 
 #logo{
   position: absolute;
-  top: 100%;
+  top: 48%;
   left: 18.5%; 
 }
 
@@ -50,58 +50,6 @@ background-color:#212121;
   left: 75%;
 }
 
-.nav-content{
-  height: 100px;
-}
-
-
-@media screen and (width: 1920px) {
-.nav-content{
-  height: 110px;
-}
- }
-
-@media screen and (width: 900px) {
-.nav-content{
-  height: 0px;
-}
- }
-
-@media screen and (width: 700px) {
-.nav-content{
-  height: 0px;
-}
- }
-
- @media screen and (width: 800px) {
-.nav-content{
-  height: 0px;
-}
- }
-
-@media screen and (width: 768px) {
-.nav-content{
-  height: 0px;
-}
- }
-
-@media screen and (width: 375px) {
-.nav-content{
-  height: 0px;
-}
- }
-
-@media screen and (width: 414px) {
-.nav-content{
-  height: 0px;
-}
- }
-
-@media screen and (width: 360px) {
-.nav-content{
-  height: 0px;
-}
- }
 
 .searchtop{
   height: 20px;
@@ -109,88 +57,6 @@ background-color:#212121;
   right: 18%;
   top: 6px;
 }
-
-@media screen and (width: 1366px) {
- .searchtop{
-  right: 18%;
-} 
-.human{
-  position: absolute;
-  left: 60%;
-}
-
-.cart{
-  position: absolute;
-  left: 67%;
-}
-
-.checkout{
-   position: absolute;
-  left: 72%;
-}
-}
-
-@media screen and (width: 1200px) {
- .searchtop{
-  right: 17.5%;
-} 
-.human{
-  position: absolute;
-  left: 57%;
-}
-
-.cart{
-  position: absolute;
-  left: 66%;
-}
-
-.checkout{
-   position: absolute;
-  left: 72%;
-}
-}
-
-@media screen and (width: 1100px) {
- .searchtop{
-  right: 17%;
-} 
-.human{
-  position: absolute;
-  left: 57%;
-}
-
-.cart{
-  position: absolute;
-  left: 66%;
-}
-
-.checkout{
-   position: absolute;
-  left: 72%;
-}
-}
-
-@media screen and (width: 1000px) {
- .searchtop{
-  right: 17%;
-} 
-.human{
-  position: absolute;
-  left: 57%;
-}
-
-.cart{
-  position: absolute;
-  left: 66%;
-}
-
-.checkout{
-   position: absolute;
-  left: 72%;
-}
-}
-
-
 
 .border{
   height: 22px;
@@ -311,9 +177,9 @@ display: block;
   width: 100%;
 }
 
- INPUT[type="search"] {
-    background-color:#4a4a4a;
-    color:white;
+#search2{
+  background-color:#545454;
+  color: black;
 }
 
 .logoMobile{
@@ -383,4 +249,9 @@ display: block;
 #picture-right{
   margin-top: -5px;
   text-align: right;  
+}
+
+
+@media screen and (max-width: 375px) {
+
 }
