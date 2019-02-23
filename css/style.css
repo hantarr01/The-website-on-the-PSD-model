@@ -258,8 +258,14 @@ display: block;
 .products{
   color: white;
   margin-top: -19px;
-  height: 872px;
+  height: 450px;
   width: 100%;
+}
+.products2{
+  margin-top: -19px;
+  height: 492px;
+  width: 100%;
+  border: 1px solid #303030;
 }
 
 .wht{
@@ -296,7 +302,7 @@ width: 50%;
 }
 
 #picture3{
-height:450px; 
+height:456px; 
 background-color:#1c1c1c;
 float: left;
 width: 50%;
@@ -310,6 +316,7 @@ width: 50%;
 #picture4{
 float: left;
 width: 50%;
+background-color:#303030;
 }
 
 .inpic4{
@@ -319,4 +326,35 @@ width: 50%;
 
 #imgproducts{
   float: right;
+}
+
+.featProd{
+  background-color:#282828;
+  height: 705px;
+  width: 100%;
+  
+}
+
+.heading{
+  height: 120px;
+  width: 100%;
+  text-align: center; 
+  border: 1px solid green;
+}
+
+.inHeading{
+  
+}
+
+.txtHead{
+  margin-top: 45px;
+  font-size: 25px;
+  color: white;
+}
+
+.brBttRed{
+  margin-top: 10px;
+  border-bottom:5px solid #9c1c28; 
+  width: 25vh;
+  margin-left: 17vh;
 }
