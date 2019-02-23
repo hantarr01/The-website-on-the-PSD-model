@@ -256,32 +256,39 @@ display: block;
 }
 
 .products{
+  color: white;
   margin-top: -19px;
   height: 872px;
   width: 100%;
 }
 
+.wht{
+  margin-left: 20px;
+  margin-top: 50px;
+  color: white;
+}
+
+.wh{
+  color:#888888; 
+}
+
 #picture1{
 float: left;
 width: 50%;
-height: 390px;
-border: 1px solid green;
 }
 
-.inpic2{
-
+.inpic1{
+  margin-top: 30px;
 }
 
 
 #picture2{
-float: right;
+background-color:#1c1c1c;
+float: left;
 width: 50%;
-height: 390px;
-border: 1px solid green;
 }
 
 .inpic2{
-margin-top:50px;
 }
 
 .ulmrg{
@@ -289,25 +296,24 @@ margin-top:50px;
 }
 
 #picture3{
+height:450px; 
+background-color:#1c1c1c;
 float: left;
 width: 50%;
-height: 390px;
-border: 1px solid green;
+
 }
 
 .inpic3{
-
+  margin-top:-20px; 
 }
 
 #picture4{
-float: right;
+float: left;
 width: 50%;
-height: 390px;
-border: 1px solid green;
 }
 
 .inpic4{
-
+  margin-top: -15px;
 }
 
 
