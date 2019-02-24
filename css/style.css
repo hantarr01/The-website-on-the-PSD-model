@@ -264,6 +264,7 @@ display: block;
 .products2{
   margin-top: -19px;
   height: 492px;
+  height: 25vw;
   width: 100%;
   border: 1px solid #303030;
 }
@@ -310,10 +311,10 @@ width: 50%;
 }
 
 .inpic3{
-  margin-top:-20px; 
 }
 
 #picture4{
+height:456px; 
 float: left;
 width: 50%;
 background-color:#303030;
@@ -330,31 +331,113 @@ background-color:#303030;
 
 .featProd{
   background-color:#282828;
-  height: 705px;
   width: 100%;
-  
 }
 
 .heading{
-  height: 120px;
+  height: 250px;
   width: 100%;
-  text-align: center; 
+  text-align: center;
+  float: center;
+  border: 1px solid red; 
+}
+
+.center{
+  text-align: center;
+}
+
+.inHeading{ 
+  display: table; 
+  margin: 0 auto;
+  text-align: center;
+  height: 100px;
+  width: 300px;
   border: 1px solid green;
 }
 
-.inHeading{
-  
-}
-
 .txtHead{
-  margin-top: 45px;
+  margin-top: 40px;
   font-size: 25px;
   color: white;
 }
 
 .brBttRed{
-  margin-top: 10px;
+  margin-top:9px;  
+  margin-left: 95px;
   border-bottom:5px solid #9c1c28; 
-  width: 25vh;
-  margin-left: 17vh;
+  width:120px;
+}
+
+.tblprod{
+ width: 100%;
+ border: 1px solid blue;
+}
+
+
+ 
+
+
+
+.prodct1{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom:20px;
+  width: 247px;
+  height: 370px;
+  padding-top:83px;
+  margin-left:20px; 
+  background-color: #363636; 
+}
+
+
+.prodct2{
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom:20px;
+  width: 247px;
+  height: 370px;
+  padding-top:25px;
+  margin-left:20px; 
+  background-color: #363636; 
+}
+
+.prodct3{ 
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom:20px;
+  width: 247px;
+  height: 370px;
+  padding-top:22px;
+  margin-left:20px; 
+  background-color: #363636; 
+}
+
+.prodct4{ 
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom:20px;
+  width: 247px;
+  height: 370px;
+  padding-top:68px;
+  margin-left:20px; 
+  background-color: #363636; 
+}
+
+.prodct5{  
+  margin-top: 10px;
+  text-align: center;
+  margin-bottom:20px;
+  width: 247px;
+  height: 370px;
+  padding-top:13px;
+  margin-left:20px; 
+  background-color: #363636; 
+}
+
+
+.hght{
+  background-color: #282828;  
+  height: 160px;
+  width: 100%;
+  border: 1px solid green;
 }
