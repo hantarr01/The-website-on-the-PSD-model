@@ -11,7 +11,7 @@ height: 9vw;
 }
 
 @media screen and (width:1920px){
-#header{height: 6.5vw;}  
+#header{height:140px}  
 }
 
 #menu2{
