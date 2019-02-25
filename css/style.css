@@ -25,12 +25,16 @@ left: 17%;
 }
 
 
-
 #up-header{
 position: absolute;
 right: 16.5%;
 width: 350px;
 height:35px;
+}
+
+#up-header a{
+  font-size:13px; 
+  color:#ff3448;
 }
 
 .human{
@@ -46,6 +50,7 @@ margin-top: -63px;
 margin-left:180px;
 margin-top: -63px;
 }
+
 
 .searchtop{
 margin-top:-35px;
@@ -535,15 +540,21 @@ footer a{
 .up-footer{
   display: table; 
   margin: 0 auto; 
-  margin-left:5%;
-  width: 90%;
+  margin-left:9vw;
+  width: 80vw;
   border-bottom:1px solid grey;
 }
 
 .table{
-  letter-spacing: 1px;
+  line-height: 1.7;
   float: left;
-  margin-right:6vw;  
+  margin-right:10vw;  
+}
+
+.table1{
+  margin-left: 5vw;
+  line-height: 1.7;
+  float: left; 
 }
 
 .upTxtTable{
@@ -561,4 +572,68 @@ footer a{
   margin-top:5px; 
   width:63px;
   border-bottom:4px solid #9c1c28;
+}
+
+.textNEW{
+  font-size:9px;
+  text-align: left;
+  width: 325px;
+  height: 50px;
+  color: white;
+}
+
+.formTxt{ 
+  height: 35px; 
+  width: 280px;
+  color: white;
+}
+
+.bttnNewSlet{
+  background-color: #9c1c28;
+  border: none;
+  width:120px;
+  height: 26px;
+  font-weight: 600;
+  border-radius: 100px;
+  color: white;
+}
+
+.subm{
+  margin-bottom:50px; 
+}
+
+.down-footer{
+  display: table; 
+  margin: 0 auto; 
+  margin-left:9vw;
+  width: 80vw;
+  border-bottom:1px solid grey;
+}
+
+.colorrp{
+  font-size:10px; 
+  text-align: left;
+  color:#887979;
+  width: 330px;
+  height: 70px;
+  margin-bottom: 70px;
+}
+
+.contactFooter{
+  font-size:10px; 
+  color:#887979;
+  text-align: left;
+}
+
+.Reserv{
+  font-size:10px; 
+  color:#887979;
+  margin-top: 50px;
+  margin-left:9vw;
+  padding-bottom:50px; 
+}
+
+.bFooter{
+  font-size:10px; 
+  color: white;
 }
