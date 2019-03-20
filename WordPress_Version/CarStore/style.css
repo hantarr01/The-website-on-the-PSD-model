@@ -10,9 +10,6 @@ background-color:#212121;
 height: 9vw;
 }
 
- li {
-    list-style-type: none; 
-   }
 
 @media screen and (width:1920px){
 #header{height:140px}  
@@ -212,14 +209,8 @@ display: block;
 
 
 #mainbanner{
-  margin-top: -20px;
+  margin-top: -100px;
   width: 100%;
-}
-
-.bx-wrapper{
-   border: none;
-   box-shadow:none;
-   background-color:black; 
 }
 
 #search2{
@@ -288,12 +279,12 @@ display: block;
 
 .products{
   color: white;
-  margin-top: -71px;
+  margin-top: -19px;
   height: 450px;
   width: 100%;
 }
 .products2{
-  margin-top: -71px;
+  margin-top: -19px;
   height: 492px;
   height: 25vw;
   width: 100%;

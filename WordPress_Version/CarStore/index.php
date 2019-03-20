@@ -10,18 +10,11 @@
 
 <?php get_header(); ?>
 
+
  <?php if ( have_posts() ); ?>
-
-
 <div id="mainbanner">
-		<div class="slider">
-		 <img src="<?= bloginfo('template_directory'); ?>/coolimage.png" class="responsive-img" width="100%">
-		 <img src="<?= bloginfo('template_directory'); ?>/lamb.jpg" class="responsive-img" width="100%">
-		 <img src="<?= bloginfo('template_directory'); ?>/bb.jpg" class="responsive-img" width="100%">
-		 <img src="<?= bloginfo('template_directory'); ?>/nig.jpg" class="responsive-img" width="100%">
-		 <img src="<?= bloginfo('template_directory'); ?>/bmv.jpg" class="responsive-img" width="100%">
-		</div>
-</div>
+ 	<img src="<?= bloginfo('template_directory'); ?>/coolimage.png" class="responsive-img" width="100%">
+ </div>
 
 
  <div class="products">
