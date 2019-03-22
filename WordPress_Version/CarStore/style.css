@@ -10,6 +10,9 @@ background-color:#212121;
 height: 9vw;
 }
 
+ li {
+    list-style-type: none; 
+   }
 
 @media screen and (width:1920px){
 #header{height:140px}  
@@ -209,8 +212,14 @@ display: block;
 
 
 #mainbanner{
-  margin-top: -100px;
+  margin-top: -20px;
   width: 100%;
+}
+
+.bx-wrapper{
+   border: none;
+   box-shadow:none;
+   background-color:black; 
 }
 
 #search2{
@@ -279,12 +288,12 @@ display: block;
 
 .products{
   color: white;
-  margin-top: -19px;
+  margin-top: -71px;
   height: 450px;
   width: 100%;
 }
 .products2{
-  margin-top: -19px;
+  margin-top: -71px;
   height: 492px;
   height: 25vw;
   width: 100%;
@@ -397,65 +406,26 @@ background-color:#303030;
 
 .prodct1{
   float: left;
-  margin-top: 10px;
+  margin-top: 25px;
   text-align: center;
   margin-bottom:20px;
   width: 247px;
   height: 370px;
-  padding-top:83px;
-  margin-left:10vw; 
+  margin-left:5vw; 
   background-color: #363636; 
 }
 
-
-.prodct2{
-   float: left;
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom:20px;
-  width: 247px;
-  height: 370px;
-  padding-top:25px;
-  margin-left:4%;  
-  background-color: #363636; 
+.upTextProd a{
+  font-size: 17px;
+  color: #ff3448;
+  font-weight:bolder;
 }
 
-.prodct3{ 
-  float: left;
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom:20px;
-  width: 247px;
-  height: 370px;
-  padding-top:22px;
-  margin-left:4%;  
-  background-color: #363636; 
+.downTextProd{
+  font-size: 27px;
+  color:white;
+  font-weight:bolder;
 }
-
-.prodct4{
-  float: left; 
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom:20px;
-  width: 247px;
-  height: 370px;
-  padding-top:68px;
-  margin-left:4%;  
-  background-color: #363636; 
-}
-
-.prodct5{  
-  float: left;
-  margin-top: 10px;
-  text-align: center;
-  margin-bottom:20px;
-  width: 247px;
-  height: 370px;
-  padding-top:13px;
-  margin-left:4%;  
-  background-color: #363636; 
-}
-
 
 .hght{
   background-color: #282828;  

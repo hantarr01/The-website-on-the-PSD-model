@@ -5,15 +5,16 @@
  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-	
- 	<link href="<?= bloginfo('template_directory'); ?>https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+ 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  	<link type="text/css" rel="stylesheet" href="<?= bloginfo('template_directory'); ?>/materialize.min.css"  media="screen,projection"/>
  	<link href="<?= bloginfo('template_directory'); ?>/style.css" rel="stylesheet" type="text/css">
 
  	<link href="<?= bloginfo('template_directory'); ?>https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
  	<link href="<?= bloginfo('template_directory'); ?>https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet"> 
  	<title>Car Store</title>
-<?php wp_head();?>
+ 	<?php wp_head();?>
  </head>
 
  <body>
@@ -32,8 +33,8 @@
 
  							<div class="human" id="font">
  								<a href="#">
- 								<img src="<?= bloginfo('template_directory'); ?>/human.png">
- 								My Account
+ 									<img src="<?= bloginfo('template_directory'); ?>/human.png">
+ 									My Account
  								</a>
  							</div>
 
@@ -41,8 +42,8 @@
 
  							<div class="cart" id="font">
  								<a href="#">
- 								<img src="<?= bloginfo('template_directory'); ?>/cart.png">
- 								Cart
+ 									<img src="<?= bloginfo('template_directory'); ?>/cart.png">
+ 									Cart
  								</a>
  							</div>
 
@@ -50,8 +51,8 @@
 
  							<div class="checkout" id="font">
  								<a href="#">
- 								<img src="<?= bloginfo('template_directory'); ?>/checkout.png">
- 								Checkout
+ 									<img src="<?= bloginfo('template_directory'); ?>/checkout.png">
+ 									Checkout
  								</a>
  							</div>
 
@@ -234,70 +235,70 @@
 
  </header> 
 
-<div class="buttons">
+ <div id="buttons">
  	<ul>
  		<div class="row">
- 		<li><div class="col s12 col l2"></div></li>
+ 			<li><div class="col s12 col l2"></div></li>
 
- 		<li class="marg">
- 		<a href="https://materializecss.com/media-css.html">
- 			<div id="buttonshrefsmall"><p><?php wp_nav_menu( $args ); ?></p></div>
- 		</a>
- 		</li>	
+ 			<li class="marg">
+ 				<a href="https://materializecss.com/media-css.html">
+ 					<div id="buttonshrefsmall"><p>HOME</p></div>
+ 				</a>
+ 			</li>	
 
- 		<li class="marg">
- 		<a href="#">
- 			<div id="buttonshref"><p><?php wp_nav_menu( $args ); ?></p></div>
- 		</a>
- 		</li>	
+ 			<li class="marg">
+ 				<a href="https://materializecss.com/media-css.html">
+ 					<div id="buttonshref"><p>SERVICES</p></div>
+ 				</a>
+ 			</li>	
 
 
- 		<li class="marg">
- 		<a href="https://materializecss.com/media-css.html">
- 			<div id="buttonshrefsmall"><p><?php wp_nav_menu( $args ); ?></p></div>
- 		</a>
- 		</li>					
+ 			<li class="marg">
+ 				<a href="https://materializecss.com/media-css.html">
+ 					<div id="buttonshrefsmall"><p>ABOUT</p></div>
+ 				</a>
+ 			</li>					
 
- 		<li class="marg">
- 		<a href="https://materializecss.com/media-css.html">
- 			<div id="buttonshref"><p><?php wp_nav_menu( $args ); ?></p></div>
- 		</a>
- 		</li>
+ 			<li class="marg">
+ 				<a href="https://materializecss.com/media-css.html">
+ 					<div id="buttonshref"><p>REVIEWS</p></div>
+ 				</a>
+ 			</li>
 
- 
- 		<li class="marg">
- 		<a href="https://materializecss.com/media-css.html">
- 			<div id="buttonshref"><p><?php wp_nav_menu( $args ); ?></p></div>
- 		</a>
- 		</li>
+ 			<li class="marg">
+ 				<a href="https://materializecss.com/media-css.html">
+ 					<div id="buttonshref"><p>LOCATIONS</p></div>
+ 				</a>
+ 			</li>
 
- 		<li class="marg">
- 		<a href="https://materializecss.com/media-css.html">
- 			<div id="buttonshref"><p><?php wp_nav_menu( $args ); ?></p></div>
- 		</a>
- 		</li>
- 	</div>
+ 			<li class="marg">
+ 				<a href="https://materializecss.com/media-css.html">
+ 					<div id="buttonshref"><p>CONTACTS</p></div>
+ 				</a>
+ 			</li>
+ 		</div>
  	</ul> 
+ </div>
 
  <?php
-		wp_nav_menu( [
-	'theme_location'  => '',
-	'menu'            => '', 
-	'container'       => 'li', 
-	'container_class' => 'marg', 
-	'container_id'    => 'buttonshrefsmall',
-	'menu_class'      => 'marg', 
-	'menu_id'         => '',
-	'echo'            => true,
-	'fallback_cb'     => 'wp_page_menu',
-	'before'          => '',
-	'after'           => '',
-	'link_before'     => '',
-	'link_after'      => '',
-	'items_wrap'      => '<div id="buttonshref" class=""></div>',
-	'depth'           => 0,
-	'walker'          => '',
-] );
-?>
+ wp_nav_menu( [
+ 	'theme_location'  => '',
+ 	'menu'            => '', 
+ 	'container'       => 'li', 
+ 	'container_class' => 'marg', 
+ 	'container_id'    => 'buttonshrefsmall',
+ 	'menu_class'      => 'marg', 
+ 	'menu_id'         => '',
+ 	'echo'            => true,
+ 	'fallback_cb'     => 'wp_page_menu',
+ 	'before'          => '',
+ 	'after'           => '',
+ 	'link_before'     => '',
+ 	'link_after'      => '',
+ 	'items_wrap'      => '<div id="buttonshref" class=""></div>',
+ 	'depth'           => 0,
+ 	'walker'          => '',
+ ] );
+ ?>
 
 </div>
