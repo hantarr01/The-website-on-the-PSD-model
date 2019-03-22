@@ -23,7 +23,7 @@
 	</div>
 </div>
 
-
+<div class="allProductsTable">
 <div class="products">
 
 	<ul>
@@ -90,7 +90,7 @@
 	</ul>
 </div>
 </div>
-
+</div>
 
 <div class="featProd">
 

@@ -286,9 +286,14 @@ display: block;
   color: white;
 }
 
+.allProductsTable{
+  display: table;
+  width: 100%;
+}
+
 .products{
   color: white;
-  margin-top: -71px;
+  margin-top: -76px;
   height: 450px;
   width: 100%;
 }
@@ -329,9 +334,6 @@ width: 50%;
 .inpic2{
 }
 
-.ulmrg{
-  margin-top:-600px; 
-}
 
 #picture3{
 height:456px; 
@@ -363,10 +365,11 @@ background-color:#303030;
 .featProd{
   background-color:#282828;
   width: 100%;
+  margin-top:-20px; 
 }
 
 .heading{
-  height: 250px;
+  height: 120px;
   width: 100%;
   text-align: center;
   float: center;
@@ -398,7 +401,6 @@ background-color:#303030;
 }
 
 .tblprod{
- margin-top: 97px;
  display: table;
  width: 100%;
 }
@@ -406,12 +408,12 @@ background-color:#303030;
 
 .prodct1{
   float: left;
-  margin-top: 25px;
+  margin-top:15px;
   text-align: center;
   margin-bottom:20px;
   width: 247px;
   height: 370px;
-  margin-left:5vw; 
+  margin-left:6%; 
   background-color: #363636; 
 }
 
