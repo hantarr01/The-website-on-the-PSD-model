@@ -30,7 +30,7 @@
 
  							<div class="human" id="font">
  								<a href="#">
- 									<img src="<?= bloginfo('template_directory'); ?>/human.png">
+ 									<img src="<?= bloginfo('template_directory'); ?>/image/human.png">
  									My Account
  								</a>
  							</div>
@@ -39,7 +39,7 @@
 
  							<div class="cart" id="font">
  								<a href="#">
- 									<img src="<?= bloginfo('template_directory'); ?>/cart.png">
+ 									<img src="<?= bloginfo('template_directory'); ?>/image/cart.png">
  									Cart
  								</a>
  							</div>
@@ -48,7 +48,7 @@
 
  							<div class="checkout" id="font">
  								<a href="#">
- 									<img src="<?= bloginfo('template_directory'); ?>/checkout.png">
+ 									<img src="<?= bloginfo('template_directory'); ?>/image/checkout.png">
  									Checkout
  								</a>
  							</div>
@@ -57,7 +57,7 @@
 
  							<div class="searchtop">
  								<a href="#">
- 									<img src="<?= bloginfo('template_directory'); ?>/search.png">
+ 									<img src="<?= bloginfo('template_directory'); ?>/image/search.png">
  								</a>
  							</div>
 
@@ -68,14 +68,14 @@
  												<!-- border -->
 
  						<div id="logo">
- 							<img src="<?= bloginfo('template_directory'); ?>/logo.png"></img>
+ 							<img src="<?= bloginfo('template_directory'); ?>/image/logo.png"></img>
  						</div>
 
  						<div class="alltab">
  							<div class="intab1">
  								<a href="#">
  									<div class="tabs1">
- 										<img src="<?= bloginfo('template_directory'); ?>/star.png">
+ 										<img src="<?= bloginfo('template_directory'); ?>/image/star.png">
  									</div>
 
  									<div class="tab1">
@@ -88,7 +88,7 @@
  							<div class="intab2">
  								<a href="#">
  									<div class="tabs2">
- 										<img src="<?= bloginfo('template_directory'); ?>/car.png">
+ 										<img src="<?= bloginfo('template_directory'); ?>/image/car.png">
  									</div>
  									<div class="tab2">
  										COMPARE
@@ -100,7 +100,7 @@
  							<div class="intab3">
  								<a href="#">
  									<div class="tabs3">
- 										<img src="<?= bloginfo('template_directory'); ?>/cart2.png">
+ 										<img src="<?= bloginfo('template_directory'); ?>/image/cart2.png">
  									</div>
  									<div class="tab3">
  										MY CART
@@ -111,7 +111,7 @@
  							<div class="con-info">
 
  								<div class="phone">
- 									<img src="<?= bloginfo('template_directory'); ?>/phone.png"">
+ 									<img src="<?= bloginfo('template_directory'); ?>/image/phone.png"">
  								</div>
 
  								<div class="number">
@@ -151,14 +151,14 @@
  			</li>
 
  			<li class="logoMobile">
- 				<img src="<?= bloginfo('template_directory'); ?>/logo.png"></img>
+ 				<img src="<?= bloginfo('template_directory'); ?>/image/logo.png"></img>
  			</li>
 
  			<li>
 
  				<div class="rdA">
  					<a href="#">
- 						<img src="<?= bloginfo('template_directory'); ?>/human.png">
+ 						<img src="<?= bloginfo('template_directory'); ?>/image/human.png">
  						My Account
  					</a>
  				</div>
@@ -167,14 +167,14 @@
 
  				<div class="rdA">
  					<a href="#">
- 						<img src="<?= bloginfo('template_directory'); ?>/cart.png">
+ 						<img src="<?= bloginfo('template_directory'); ?>/image/cart.png">
  						Cart
  					</a>
  				</div>
 
  				<div class="rdA">
  					<a href="#">
- 						<img src="<?= bloginfo('template_directory'); ?>/checkout.png">
+ 						<img src="<?= bloginfo('template_directory'); ?>/image/checkout.png">
  						Checkout
  					</a>
  				</div>		
@@ -186,7 +186,7 @@
  				<div class="intabm">
  					<a href="#">
  						<div>
- 							<img src="<?= bloginfo('template_directory'); ?>/star.png">
+ 							<img src="<?= bloginfo('template_directory'); ?>/image/star.png">
  						</div>
  						<div class="tabm">
  							WISHLIST
@@ -199,7 +199,7 @@
  				<div class="intabm2">
  					<a href="#">
  						<div>
- 							<img src="<?= bloginfo('template_directory'); ?>/car.png">
+ 							<img src="<?= bloginfo('template_directory'); ?>/image/car.png">
  						</div>
  						<div class="tabm">
  							COMPARE
@@ -212,7 +212,7 @@
  				<div class="intabm3">
  					<a href="#">
  						<div>
- 							<img src="<?= bloginfo('template_directory'); ?>/cart2.png"> 
+ 							<img src="<?= bloginfo('template_directory'); ?>/image/cart2.png"> 
  						</div>	
  						<div class="tabmCart">
  							MY CART

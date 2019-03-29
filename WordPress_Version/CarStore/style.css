@@ -325,12 +325,19 @@ li {
   width: 50%;
 }
 
+.inpic2{
+}
+
+
 #picture3{
   height:456px; 
   background-color:#1c1c1c;
   float: left;
   width: 50%;
 
+}
+
+.inpic3{
 }
 
 #picture4{
@@ -391,6 +398,7 @@ li {
  display: table;
  width: 100%;
 }
+
 
 .prodct1{
   float: left;

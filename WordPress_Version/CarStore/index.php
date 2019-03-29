@@ -15,11 +15,11 @@
 
 <div id="mainbanner">
 	<div class="slider">
-		<img src="<?= bloginfo('template_directory'); ?>/coolimage.png" class="responsive-img" width="100%">
-		<img src="<?= bloginfo('template_directory'); ?>/lamb.jpg" class="responsive-img" width="100%">
-		<img src="<?= bloginfo('template_directory'); ?>/bb.jpg" class="responsive-img" width="100%">
-		<img src="<?= bloginfo('template_directory'); ?>/nig.jpg" class="responsive-img" width="100%">
-		<img src="<?= bloginfo('template_directory'); ?>/bmv.jpg" class="responsive-img" width="100%">
+		<img src="<?= bloginfo('template_directory'); ?>/image/coolimage.png" class="responsive-img" width="100%">
+		<img src="<?= bloginfo('template_directory'); ?>/image/lamb.jpg" class="responsive-img" width="100%">
+		<img src="<?= bloginfo('template_directory'); ?>/image/bb.jpg" class="responsive-img" width="100%">
+		<img src="<?= bloginfo('template_directory'); ?>/image/nig.jpg" class="responsive-img" width="100%">
+		<img src="<?= bloginfo('template_directory'); ?>/image/bmv.jpg" class="responsive-img" width="100%">
 	</div>
 </div>
 
@@ -36,7 +36,7 @@
 				</div>
 
 				<div class="inpic1">
-					<img src="<?= bloginfo('template_directory'); ?>/1picture.png"  class="responsive-img" id="imgproducts">
+					<img src="<?= bloginfo('template_directory'); ?>/image/1picture.png"  class="responsive-img" id="imgproducts">
 				</div>
 			</div>
 		</li>
@@ -50,7 +50,7 @@
 				</div>
 
 				<div class="inpic2">
-					<img src="<?= bloginfo('template_directory'); ?>/2picture.png"  class="responsive-img" id="imgproducts">
+					<img src="<?= bloginfo('template_directory'); ?>/image/2picture.png"  class="responsive-img" id="imgproducts">
 				</div>
 			</div>
 		</div>
@@ -68,7 +68,7 @@
 				</div>
 
 				<div class="inpic3">
-					<img src="<?= bloginfo('template_directory'); ?>/3picture.png"  class="responsive-img" id="imgproducts">
+					<img src="<?= bloginfo('template_directory'); ?>/image/3picture.png"  class="responsive-img" id="imgproducts">
 				</div>
 			</div>
 		</li>
@@ -82,7 +82,7 @@
 				</div>
 
 				<div class="inpic4">
-					<img src="<?= bloginfo('template_directory'); ?>/4picture.png"   class="responsive-img" id="imgproducts">
+					<img src="<?= bloginfo('template_directory'); ?>/image/4picture.png"   class="responsive-img" id="imgproducts">
 				</div>
 			</div>
 		</li>
@@ -104,17 +104,13 @@
 			</li>
 		</ul>
 	</div>
-
-
 <div class="tblprod">
+	
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-		<!-- post -->
 		<ul>	
 			<li>
-
 			<div class="prodct1">
 				<article>
-
 					 <p class="upTextProd"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p> 
 					 <?php add_theme_support( 'post-thumbnails' ); ?>
 
@@ -130,21 +126,14 @@
 
 				</article>
 			</div>
-			
+		<?php endwhile;?>
+	
+		<?php else:?>
 
-<?php endwhile; ?>
-<!-- post navigation -->
-
-<?php else: ?>
-<!-- no posts found -->
-
-<?php endif; ?> 								
-				
-
-			</li>
-			
+		<?php endif; ?> 									
+			</li>	
 		</ul>		
-</div>
+	</div>
 
 	<div class="hght"></div>
 </div>
